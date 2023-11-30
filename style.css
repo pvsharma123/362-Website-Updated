@@ -12,7 +12,7 @@ body {
 header {
     background-color: #007bff; /* Header background color */
     color: #fff; /* Header text color */
-    padding: 20px;
+    padding: 10px;
 }
 
 header img {
@@ -25,7 +25,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 nav a {
@@ -48,11 +48,11 @@ footer {
     background-color: #f01212; /* Footer background color */
     color: #fff; /* Footer text color */
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer nav a {
-    margin: 0 20px;
+    margin: 0 10px;
     color: #fff; /* Footer navigation link color */
 }
 
