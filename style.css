@@ -2,7 +2,7 @@
 /* Global styles */
 body {
     font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     color: #007bff; /* Text color set to red */
     background-color: #f4f4f4; /* Background color set to white */
@@ -12,7 +12,7 @@ body {
 header {
     background-color: #007bff; /* Header background color */
     color: #fff; /* Header text color */
-    padding: 10px;
+    padding: 20px;
 }
 
 header img {
@@ -48,11 +48,11 @@ footer {
     background-color: #f01212; /* Footer background color */
     color: #fff; /* Footer text color */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 footer nav a {
-    margin: 0 10px;
+    margin: 0 20px;
     color: #fff; /* Footer navigation link color */
 }
 
