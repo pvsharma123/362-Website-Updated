@@ -40,9 +40,7 @@ nav a:hover{
 
 /* Main content styles */
 main {
-  display: flex;
-  align-items: center; /* Vertical alignment */
-  justify-content: center; /* Horizontal alignment */
+  pading: 20px;
 }
 
 
