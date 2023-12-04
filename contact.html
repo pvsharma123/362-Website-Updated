@@ -17,6 +17,7 @@
 
   gtag('config', 'G-2Q3950R1V5');
 </script>
+
 </head>
 
 <body>
@@ -34,20 +35,37 @@
     </header>
     <h2>123 Doc Lane Ave</h2>
     <img src="random_address.png" width="300" height="200" alt="Clinic Address"> 
-    <p>
-        FOR EMERGENCIES PLEASE CALL 911
-        Front Desk Number:
-        803-333-3221
-        Email:
-        pathemupmedclin@email.com
-    </p>
+    
+        <h2><span style="color: red;">FOR EMERGENCIES PLEASE CALL 911</span></h2>
+        <ul>
+            <li>Front Desk Number: 803-333-3221</li>
+        </ul>
+        <ul>
+            <li>Email: patchemupmedclin@email.com</li>
+        </ul>
+        <p>
+            To book an appointment please fill out the form below and we will be in contact as soon as possible!
+        </p>
+    
+    <form action="/Submit_Form" method="post">
+        <h5>First Name</h5>
+        <input name="input1" placeholder="First Name..." style="border-radius: 3px;">
+        <h5>Last Name</h5>
+        <input name="input2" placeholder="Last Name..." style="border-radius: 3px;">
+        <h5>Email Address</h5>
+        <input name="input3" placeholder="Email Address..." style="border-radius: 3px;">
+        <h5>How can we help You?</h5>
+        <textarea name="input4" placeholder="..." style="border-radius: 3px;" rows="5" cols="30"></textarea>
+        <br>
+        <button name="button1" type="submit" style="width: 100px; height: 20px; margin-top: 1rem;">Submit</button>
+    </form> 
 
-     <footer>
+    <footer>
         <nav>
             <a href="index.html">Home</a>
             <a href="services.html">Services</a>
             <a href="team.html">Our Team</a>
-            <a href="contact.html">Contact Us!</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </footer>
 </body>
